@@ -1,0 +1,14 @@
+{
+  "name": "small-business-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Secure, dependency-free small-business website with a hardened enquiry API.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:production": "node scripts/build.mjs --production",
+    "test": "node --test",
+    "check": "npm run build && npm test"
+  }
+}

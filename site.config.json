@@ -1,0 +1,120 @@
+{
+  "demo": true,
+  "siteUrl": "https://brightwell-demo.example.com",
+  "lang": "en-GB",
+  "business": {
+    "name": "Brightwell Electrical",
+    "legalName": "Brightwell Electrical Ltd",
+    "companyNumber": "00000000",
+    "registeredIn": "England and Wales",
+    "phone": "020 7946 0000",
+    "phoneHref": "+442079460000",
+    "email": "hello@brightwell-demo.example.com",
+    "address": "Unit 4, Example Yard, London, E1 0AA",
+    "hours": "Monday to Friday 8am–6pm. Saturday 9am–1pm. Emergency call-outs 24 hours.",
+    "hoursSpec": [
+      { "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:00", "closes": "18:00" },
+      { "days": ["Saturday"], "opens": "09:00", "closes": "13:00" }
+    ],
+    "areas": ["Hackney", "Islington", "Tower Hamlets", "Camden", "Waltham Forest", "Newham"],
+    "credentials": [
+      "Example registration: add your scheme name and number here",
+      "Example insurance: add your public liability cover here"
+    ],
+    "privacyRetentionMonths": 12,
+    "processors": [
+      { "name": "Vercel Inc.", "purpose": "hosting this website" },
+      { "name": "Supabase Inc.", "purpose": "storing the enquiries you send us" }
+    ]
+  },
+  "hero": {
+    "headline": "Safe, certified electrical work for London homes and small businesses.",
+    "sub": "Fuse boxes, safety reports, rewires and emergency call-outs. Fixed written quotes, tidy work, and a certificate when we finish.",
+    "sample": {
+      "caption": "Example of the report you receive",
+      "title": "Electrical Installation Condition Report",
+      "rows": [
+        ["Property", "Flat 2, 14 Example Road"],
+        ["Circuits tested", "14 of 14"],
+        ["Consumer unit", "Replaced, RCD protected"],
+        ["Observations", "None requiring action"]
+      ],
+      "outcome": "Satisfactory"
+    }
+  },
+  "services": [
+    {
+      "slug": "fuse-boxes",
+      "title": "Fuse boxes and consumer units",
+      "tone": "brown",
+      "summary": "Replace an old fuse box with a modern, RCD-protected consumer unit.",
+      "intro": "An old fuse box can be unsafe and may not meet current requirements. We replace consumer units in a day, test every circuit, and give you the paperwork your landlord, insurer or buyer will ask for.",
+      "points": [
+        "Survey and fixed written quote before any work starts",
+        "Modern consumer unit with RCD protection and surge protection where required",
+        "Every circuit tested and labelled",
+        "Certificate issued, and building control notified where the work requires it"
+      ],
+      "note": "Most homes take a single working day. We tell you in advance when the power will be off."
+    },
+    {
+      "slug": "safety-reports",
+      "title": "Electrical safety reports (EICR)",
+      "tone": "blue",
+      "summary": "A full inspection of your wiring, with a clear report in plain English.",
+      "intro": "Landlords need one on a regular schedule. Buyers and homeowners often want one for peace of mind. We inspect and test your installation and explain every finding.",
+      "points": [
+        "Inspection and testing of the whole installation",
+        "A clear outcome: satisfactory or unsatisfactory, with any observations explained",
+        "Priced per property size, quoted before we visit",
+        "Remedial work quoted separately so you can compare"
+      ],
+      "note": "Reports are normally ready within two working days of the visit."
+    },
+    {
+      "slug": "rewiring",
+      "title": "Rewiring and new circuits",
+      "tone": "grey",
+      "summary": "Full or partial rewires, new sockets, lighting and dedicated circuits.",
+      "intro": "Whether it is a full rewire before decorating, an extra circuit for a kitchen, or a charger point for an electric car, we plan the work around you and leave the property clean.",
+      "points": [
+        "Planned around your decorating and building schedule",
+        "Neat, labelled, tested installation",
+        "Dust sheets and a clean-up every day",
+        "Certificate and building control notification where required"
+      ],
+      "note": "We quote from a survey, not a guess, and we stick to the quote unless you ask for changes."
+    },
+    {
+      "slug": "emergency",
+      "title": "Emergency call-outs",
+      "tone": "brown",
+      "summary": "Power loss, tripping circuits, burning smells and storm damage.",
+      "intro": "If you smell burning, see scorch marks or have lost power, switch off at the consumer unit if it is safe to do so and call us. For fire or immediate danger, call 999 first.",
+      "points": [
+        "24-hour phone line",
+        "We make the problem safe first, then explain the options",
+        "Clear call-out price given on the phone",
+        "Follow-up repair quoted separately"
+      ],
+      "note": "Call us rather than using the enquiry form for anything urgent."
+    }
+  ],
+  "process": [
+    { "title": "Tell us what you need", "text": "Call or send the form below. We reply within one working day." },
+    { "title": "We survey and quote", "text": "A short visit, then a fixed written quote with no hidden extras." },
+    { "title": "We do the work", "text": "Booked at a time that suits you, with the power off only when needed." },
+    { "title": "You get the paperwork", "text": "Certificates and test results, and a final check that you are happy." }
+  ],
+  "testimonials": [
+    { "text": "Sample review text. Replace this with a real customer review before launch.", "name": "Sample customer", "place": "Hackney", "source": "" },
+    { "text": "Sample review text. Replace this with a real customer review before launch.", "name": "Sample customer", "place": "Islington", "source": "" }
+  ],
+  "faq": [
+    { "q": "Do you give fixed prices?", "a": "Yes. After a survey you receive a written fixed quote. If the scope changes, we agree the change with you before doing any extra work." },
+    { "q": "Will I get a certificate?", "a": "Yes. Notifiable work comes with the appropriate certificate, and we notify building control where the regulations require it." },
+    { "q": "How soon can you start?", "a": "Surveys are usually within a few days. Emergency call-outs are attended as quickly as we can reach you." },
+    { "q": "What happens to my enquiry?", "a": "It is stored securely and used only to reply to you. You can read the details in our privacy notice." },
+    { "q": "Which areas do you cover?", "a": "We work across East and North London. If you are just outside the list, send an enquiry and we will tell you." }
+  ]
+}
